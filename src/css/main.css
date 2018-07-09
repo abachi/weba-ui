@@ -1,0 +1,21 @@
+body{background-color: #baaec4;}
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;}
+.meleeapp{background-color: #fbfbfd; color:#797691;}
+.sidebar{ background: linear-gradient(#a926ff, #535bfb);}
+.feeds-search{background-color: #f7f7f9;}
+.speech .content{position: relative;}
+.speech .content::before{
+	content:'';
+	top:0;
+	left: -10px;
+	position: absolute;
+	width: 0;
+	height: 0;
+	z-index: 0;
+	border-top: 5px solid transparent;
+	border-right: 10px solid white;
+	border-bottom: 5px solid transparent;
+}
+.speech .content.bg-indigo::before{	border-right: 10px solid #6574cd;}
