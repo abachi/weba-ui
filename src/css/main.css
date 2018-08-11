@@ -3,6 +3,7 @@ body{background-color: #baaec4;}
 ul{list-style: none;}
 a{text-decoration: none;}
 .meleeapp{background-color: #fbfbfd; color:#797691;}
+.feeds-logo{background: linear-gradient(90deg, #a926ff, #535bfb); color:#fbfbfd;}
 .sidebar{ background: linear-gradient(#a926ff, #535bfb);}
 .feeds-search{background-color: #f7f7f9;}
 .speech .content{position: relative;}
