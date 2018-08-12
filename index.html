@@ -39,9 +39,31 @@
 					</ul>
 				</div>
 			</div>
-			<div class="flex-row md:flex">
+			<div class="flex-row lg:flex">
 				<div class="feeds-logo text-center">
 					<span class="font-bold mx-auto py-3 block sm:hidden">melee</span>
+				</div>
+				<div class="lg:hidden bg-white border-l border-grey-lighter">
+					<div class="w-full flex mb-12">
+						<div class="settings w-4/5 py-4 px-3 flex-2 text-center border-r border-b border-grey-light">
+							<a class="text-grey-dark" href="#">
+								<span class="text-xs font-bold">Settings</span>
+								<i class="fas fa-chevron-down font-bold text-xs text-grey"></i>
+							</a>
+						</div>
+						<div class="notification w-1/6 py-4 px-3 flex-1 text-center border-b border-grey-light">
+							<a class="" href="#">
+								<i class="fas fa-bell fa-lg text-grey"></i>
+							</a>
+						</div>
+					</div>
+					<div class="w-full text-center">
+							<div class="w-3/4 mx-auto">
+								<img class="rounded-full" src="https://randomuser.me/api/portraits/men/26.jpg" alt="">
+								<p class="text-base font-bold text-grey-darker my-1">Reznik Umar</p>
+								<p class="text-sm text-grey my-1">Bangalore, India</p>
+							</div>
+					</div>
 				</div>
 				<div class="feeds-search border-r border-grey-light">
 					<form class="flex md:my-4">
@@ -115,10 +137,10 @@
 							</div>
 						</div>
 					</div>
-					<form class="flex mt-2">
+					<form class="flex mt-12">
 						<button class="w-full text-center text-sm border-2 border-indigo mx-3 py-3 my-2 bg-none text-indigo font-bold rounded">LOAD MORE</button>
 					</form>
-					<div class="post-url mt-2">
+					<div class="post-url mt-12">
 						<form class="w-full flex bg-grey-light text-grey-darker py-3" action="">
 							<input class="w-3/4 h-10 text-sm pl-8 bg-grey-light text-grey-darker" type="text" placeholder="Post a URL">
 							<button class="w-1/4 h-10 text-grey-darker hover:text-grey-dark">
@@ -185,16 +207,16 @@
 							</div>
 						</div>
 						<div class="speech flex mx-1 my-3">
-							<div class="user w-12 mx-2">
+							<div class="user mx-1">
 								<div class="flex w-10 sm:w-12 avatar">
 									<img class="rounded-full" src="https://randomuser.me/api/portraits/women/24.jpg" >
 								</div>
 							</div>
-							<div class="content bg-white shadow border-3 border-b border-grey-lighter px-3 py-4 flex-row sm:flex">
+							<div class="content bg-white shadow border-3 border-b border-grey-lighter px-3 py-4 flex-row sm:flex-4">
 								<div class="details mb-3">
 									<div class="w-full flex-row">
 										<span class="flex-1 inline-block font-bold text-grey-darker mr-1">Samanta Gonzalo</span>
-										<span class="inline-block text-grey text-xs">2 days ago</span>
+										<span class="inline-block text-grey text-xs">a day ago</span>
 									</div>
 								</div>
 								<div class="message leading-normal text-grey-dark text-sm">
@@ -206,7 +228,7 @@
 									</button>
 									<button class="border border-grey-light bg-none text-indigo inline-block py-1 px-1 text-xs rounded hover:text-red">LIKE
 										<i class="far fa-heart text-sm"></i>
-										<span class="text-grey-dark text-xs">1</span> 
+										<span class="text-grey-dark text-xs">2</span> 
 									</button>
 								</div>
 							</div>
@@ -327,15 +349,15 @@
 						</div>
 					</form>
 				</div>
-				<div class="w-1/5 bg-white border-l border-grey-lighter">
+				<div class="hidden lg:block lg:w-1/5 bg-white border-l border-grey-lighter">
 					<div class="w-full flex mb-12">
-						<div class="settings w-4/5 py-4 px-3 flex-2 text-center border-r border-b border-grey-light">
-							<a class="text-grey-dark" href="#">
-								<span class="text-sm mr-2">Reznik Umar</span>
+						<div class="settings py-4 px-3 flex-2 text-center border-r border-b border-grey-light">
+							<a class="text-grey-dark whitespace-no-wrap" href="#">
+								<span class="text-xs font-bold">Reznik Umar</span>
 								<i class="fas fa-chevron-down text-xs text-grey"></i>
 							</a>
 						</div>
-						<div class="notification w-1/6 py-4 px-3 flex-1 text-center border-b border-grey-light">
+						<div class="notification py-4 px-3 flex-1 text-center border-b border-grey-light">
 							<a class="" href="#">
 								<i class="fas fa-bell fa-lg text-grey"></i>
 							</a>
